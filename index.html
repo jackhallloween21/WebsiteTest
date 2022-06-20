@@ -1,0 +1,138 @@
+<html><head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script> 
+  <title>portfolio</title> 
+  <style>
+    body
+    {background-image:url('https://i.postimg.cc/TwmgJc7j/pexel.jpg');
+    background-size: cover;
+    background-position: left;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;}
+    h6
+    {color:#620281;
+    font-family:times;}
+    h3
+    {text-align: left;
+     color: black; }
+    ul
+    {  list-style-type: none;
+      background-color: transparent;
+      margin:0px;
+      padding: 0px;
+      overflow: hidden; }
+    li 
+     { float: left;}
+    li a
+      {display: block;
+      color: black;
+      text-align: center;
+      padding:12px;
+      text-decoration: none;
+      font-weight: bold;
+     
+    }
+    .login {
+      text-align: center;
+      margin-top: 20%;
+    
+    }
+    input {
+      background: transparent;
+      padding: 2px;
+      text-align: center;
+      border-radius: 20px;
+      border-color: black;
+    }
+    .button {
+      background-color: #0F10A0;
+      color: white;
+      padding:4px;
+      border-color: black;
+    }
+   .button:hover {
+     background-color: black;
+     color: red;
+     
+   }
+   .login_heading {
+     font-weight: bold;
+     color: #0001D2;
+     
+   }
+   
+    
+    li a:hover {
+    border-bottom: 2px solid #001CFF;
+    border-bottom-style: outset;}
+    .name {
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;}
+     @keyframes move {
+       from  {padding-left: 20%;}
+       to    {padding-left: 40%;}
+     }
+
+  </style> 
+ </head> 
+ <body> 
+  <img src="https://i.postimg.cc/rsN4vwLK/20211205-164326.png" style="float:left;width:10%;height:10%;display:block;margin-left:auto;margin-right:auto;margin-left: 2%"> 
+  <h3 class="name"> ㅤ &lt;/redx<span style="color:#CF0000">cyber</span><span style="color:black;">&gt;</span></h3> 
+  <br> 
+  <br> 
+  <ul> 
+   <li> <a class="home" href="#"> Home </a></li> 
+   <li> <a href="#"> Blog </a></li> 
+   <li> <a href="#"> services </a></li> 
+   <li> <a href="#"> About </a></li> 
+  </ul> 
+  <div class="login"> 
+   <form autocomplete="on"> 
+    <legend>Login</legend> 
+    <br> 
+    <label for="email"></label> 
+    <br> 
+    <input type="email" id="email" name="email" placeholder="enter your email"> 
+    <br> 
+    <br> 
+    <label for="pass"></label> 
+    <input type="password" id="pass" name="password" placeholder="password" value=""> 
+    <br> 
+    <br> 
+    <input class="button" type="submit" value="submit" onclick="msg()"> 
+    <input class="button" type="reset" value="reset"> 
+   </form> 
+  </div> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <br> 
+  <h4 id="contact"> Contact </h4> 
+  <div class="social"> 
+   <ul> 
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+    <li> <a href="#"><i class="fa fa-facebook"></i></a></li> 
+    <li> <a href="#"><i class="fa fa-telegram"></i></a></li> 
+    <li> <a href="#"><i class="fa fa-github"></i></a></li> 
+    <li> <a href="#"><i class="fa fa-youtube"></i></a></li> 
+   </ul> 
+  </div> 
+  <script>
+    function msg() {
+      alert("your form has  submitted");
+    }
+  </script> 
+ 
+</body></html>
